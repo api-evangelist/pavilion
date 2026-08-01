@@ -1,8 +1,12 @@
 aid: pavilion
 name: Pavilion
-description: 'Pavilion is a company surfaced as a portfolio company of forerunner-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Pavilion is a government purchasing platform that helps public-sector
+  buyers find vendors, get quotes, and buy what they need without the guesswork. It
+  connects procurement teams at 3,500+ SLED (state, local, and education) agencies
+  with qualified vendors, surfaces the most direct compliant route to purchase based
+  on each agency''s rules and existing cooperative contracts, and lets vendors claim
+  a free supplier profile to get discovered. The product is 100% free for public agencies.
+  Pavilion is a SaaS marketplace backed by Forerunner Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/pavilion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,31 @@ x-backed-by:
 - forerunner-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.withpavilion.com/static/img/meta/og-image.1b1e5d1bde47.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Saas
+- SaaS
+- Procurement
+- Government
+- GovTech
+- Public Sector
+- Marketplace
+- Purchasing
+- Vendors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pavilion-domain-security.yml
 - type: Website
   url: https://www.withpavilion.com
+- type: About
+  url: https://www.withpavilion.com/about/pavilion
+- type: Support
+  url: https://www.withpavilion.com/contact
+- type: Blog
+  url: https://www.withpavilion.com/about/news
+- type: SignUp
+  url: https://www.withpavilion.com/signup
+- type: TermsOfService
+  url: https://www.withpavilion.com/terms
+- type: PrivacyPolicy
+  url: https://www.withpavilion.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
